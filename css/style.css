@@ -1401,7 +1401,7 @@ article pre .txt {
   color: #e67249;
 }
 #nexmoe-content .nexmoe-post .nexmoe-py .aplayer {
-  background-image: url("/images/background/1.jpg");
+  background-image: url("/images/background/1.png");
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -1500,13 +1500,13 @@ article pre .txt {
 #daodream-container .daodream-sheet-spinner {
   border-radius: 50% !important;
   overflow: hidden;
-  background-image: url("/images/background/2.jpg") !important;
+  background-image: url("/images/background/2.png") !important;
 }
 #daodream-container .daodream-launcher-button {
   width: 80px !important;
   height: 80px !important;
   background-color: #e67249 !important;
-  background-image: url("/images/background/2.jpg") !important;
+  background-image: url("/images/background/2.png") !important;
   background-size: 100% 100% !important;
   border-radius: 50% !important;
   animation: mybutton 8s;
