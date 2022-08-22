@@ -31,7 +31,7 @@
   
     <link rel="stylesheet" href="//at.alicdn.com/t/font_2421060_8z08qcz5sq3.css">
   
-  <link rel="stylesheet" href="/css/style.css?v=1661171801368">
+  <link rel="stylesheet" href="/css/style.css?v=1661172066373">
 <meta name="generator" content="Hexo 6.2.0"></head>
 
 <body class="mdui-drawer-body-left">
@@ -231,7 +231,7 @@
 </tr>
 </tbody></table>
 <h2 id="3️⃣组装"><a href="#3️⃣组装" class="headerlink" title="3️⃣组装"></a>3️⃣组装</h2><hr>
-<p><img data-fancybox="gallery" data-sizes="auto" data-src="/../_resources/2d801d02a07740a9b0b9334c9a3ea7fe.png" alt="7796fd18f23fc3bb4e45c3584a01fb37.png" class="lazyload"><br>蜘蛛的身体和四条腿组装如上图所示⬆<br><strong>在原作者的博客里是先将每个舵机旋转至90°位置，再将卡扣安装上</strong></p>
+<p>蜘蛛的身体和四条腿组装如上图所示⬆<br><strong>在原作者的博客里是先将每个舵机旋转至90°位置，再将卡扣安装上</strong></p>
 <pre><code class="bash/">#include &lt;Servo.h&gt;   
 Servo servo[4][3];
 const int servo_pin[4][3] = &#123; &#123;2, 3, 4&#125;, &#123;5, 6, 7&#125;, &#123;8, 9, 10&#125;, &#123;11, 12, 13&#125; &#125;;
@@ -254,7 +254,6 @@ void loop(void)
       delay(20); &#125;&#125;&#125;     //原作者的方法
 </code></pre>
 <p>由于本人所用舵机是180度带限位的舵机，所以并没有通过程序将每个舵机旋转至90度，而是一条条腿调试😂<br><strong>本人的方案是，通过I2C将esp32与PCA9685进行通讯</strong></p>
-<p><img data-fancybox="gallery" data-sizes="auto" data-src="/../_resources/ddc9041a55fd4a96830b26957d26a8c5.png" alt="54ce1f604c418a413e861fbb6a3b9d60.png" class="lazyload"></p>
 <p>其中引脚21，22为自己定义，单片机的供电可以由PCA9685的V+连接到单片机的vin口，但在测试过程中，单片机的稳压模块温度会有所上升。🧡</p>
 <hr>
 <h2 id="4️⃣代码部分"><a href="#4️⃣代码部分" class="headerlink" title="4️⃣代码部分"></a>4️⃣代码部分</h2><p><strong>代码更改自github开源项目，因为用到esp32的蓝牙模块，所以会注释掉一些原代码的功能，如果需要这些功能的朋友们可以自行更改</strong><br>   <strong>区别</strong>：copy的项目代码运用了freertos的xSemaphoreTake，比普通的定时器运行效率更为高效<br>   <em><strong>下面是我更改的代码</strong></em>🔽<br>   <em>其中蓝牙通讯功能有bug，读取发送数据为1个字节读取，所以10-17号命令无效，因为勉强能用，所以未做更改</em>😁</p>
@@ -1400,7 +1399,6 @@ void servos_cmd(int action_mode, int n_step);
 </code></pre>
 <hr>
 <h2 id="5️⃣总结"><a href="#5️⃣总结" class="headerlink" title="5️⃣总结"></a>5️⃣总结</h2><p>🎈🎈🎈项目在大一寒假时开始，当时还是个萌新（现在也是），误操作烧坏了两个舵机，进度搁置。尝试用过esp32的扩展板代替16路舵机驱动板，但缺乏电路知识，扩展版最大支持1a电流，最终含泪看着电源芯片冒烟，单片机烧坏😥<br>暑假重新开始这个项目，结合github的开源项目，最终成功尝试成功！！！！<br>最后码上测试时候的视频🤗</p>
-<p><a href="../_resources/e768b270c7b845fba5a884c74b2c8218.mp4">QQ视频20220803163729.mp4</a></p>
 
             
         </article>
@@ -2082,7 +2080,7 @@ void servos_cmd(int action_mode, int n_step);
 <script src="/lib/fancybox/js/jquery.fancybox.min.js"></script>
 
 
-<script src="/js/app.js?v=1661171801371"></script>
+<script src="/js/app.js?v=1661172066375"></script>
 
 <script src="https://unpkg.com/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
 <script>
