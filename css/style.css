@@ -1218,11 +1218,11 @@ photos img {
   flex: none;
   width: 60px;
   padding: 5px 0;
-  background-color: #8b9b8c;
+  background-color: #12aa9c;
   transform: rotate(0deg);
   border-radius: 50%;
   color: #fff;
-  box-shadow: 0 2px 12px #e67249;
+  box-shadow: 0 2px 12px #c4d7d6;
   position: relative;
 }
 #nexmoe-header .nexmoe-count .nexmoe-count-item .item-radius {
@@ -1232,7 +1232,7 @@ photos img {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #8b9b8c;
+  background-color: #12aa9c;
 }
 #nexmoe-header .nexmoe-count .nexmoe-count-item .item-right {
   left: auto;
@@ -1242,8 +1242,8 @@ photos img {
   color: #fff;
 }
 #nexmoe-header .nexmoe-list .nexmoe-list-item.active {
-  background-color: #8b9b8c;
-  box-shadow: 0 2px 12px #e67249;
+  background-color: #12aa9c;
+  box-shadow: 0 2px 12px #c4d7d6;
 }
 #nexmoe-header .nexmoe-search input {
   width: 100%;
@@ -1257,7 +1257,7 @@ photos img {
   background-color: #fff;
   border-radius: 15px;
   overflow: auto;
-  box-shadow: 0 2px 12px #e67249;
+  box-shadow: 0 2px 12px #c4d7d6;
   animation: anim 0.5s;
   max-height: 200px;
 }
@@ -1275,7 +1275,7 @@ photos img {
   color: #333;
 }
 #nexmoe-header #local-search-result .search-result-list .search-result-list-item a:hover {
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 @-moz-keyframes anim {
   0% {
@@ -1314,14 +1314,14 @@ photos img {
   overflow: inherit;
 }
 #nexmoe-header .nexmoe-widget-wrap .nexmoe-widget .category-list-count {
-  color: #8b9b8c;
+  color: #12aa9c;
   background-color: $theme_color_time;
 }
 #nexmoe-header .nexmoe-widget-wrap .nexmoe-widget .archive-list-count {
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 #nexmoe-header .nexmoe-copyright a {
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 #nexmoe-content .nexmoe-posts .nexmoe-post {
   position: relative;
@@ -1336,7 +1336,7 @@ photos img {
   border-radius: 15px 0 8px 0;
   background-color: $theme_color_time;
   height: 30px;
-  color: #8b9b8c;
+  color: #12aa9c;
   display: flex;
   align-items: center;
 }
@@ -1351,18 +1351,18 @@ photos img {
   width: 300px;
 }
 #nexmoe-pendant .nexmoe-pd .clock {
-  border: solid 2.8vh #8b9b8c;
-  box-shadow: 0 1.4vh 2.8vh #e67249;
+  border: solid 2.8vh #12aa9c;
+  box-shadow: 0 1.4vh 2.8vh #c4d7d6;
 }
 #nexmoe-pendant .nexmoe-pd .clock .memory {
   background-color: #a50e00 !important;
 }
 #nexmoe-pendant .nexmoe-pd .clock .clock_logo {
-  background-image: url("/images/background/1.png");
+  background-image: url("/images/background/2.png");
 }
 #nexmoe-pendant .nexmoe-pd .qweather #he-plugin-standard {
-  border: 2px solid #8b9b8c;
-  box-shadow: 0 1px 0 0 #e67249, 0 1px 2px 0 #e67249;
+  border: 2px solid #12aa9c;
+  box-shadow: 0 1px 0 0 #c4d7d6, 0 1px 2px 0 #c4d7d6;
 }
 #nexmoe-pendant .nexmoe-pd .qweather #he-plugin-standard .wv-lt-refresh {
   display: none;
@@ -1374,19 +1374,19 @@ photos img {
   background-image: url("/images/background/cangshu.png");
 }
 article a {
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 article h2:after {
-  background: #8b9b8c;
-  box-shadow: 0 2px 12px #e67249;
+  background: #12aa9c;
+  box-shadow: 0 2px 12px #c4d7d6;
 }
 article h4:before,
 article h5:before,
 article h6:before {
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 article ol li::before {
-  color: #8b9b8c;
+  color: #12aa9c;
   background-color: $theme_color_time;
 }
 article pre .text,
@@ -1394,11 +1394,11 @@ article pre .txt {
   color: #abb2bf;
 }
 .nexmoe-archives li::before {
-  background: #8b9b8c;
+  background: #12aa9c;
 }
 .nexmoe-rainbow a:nth-child(7n+1) {
   background: $theme_color_time;
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 #nexmoe-content .nexmoe-post .nexmoe-py .aplayer {
   background-image: url("/images/background/1.png");
@@ -1407,11 +1407,11 @@ article pre .txt {
   background-repeat: no-repeat;
 }
 #nexmoe-content .nexmoe-post .nexmoe-py p em {
-  color: #8b9b8c;
+  color: #12aa9c;
   font-size: 17px;
 }
 #nexmoe-content .nexmoe-post .nexmoe-comment .v a::before {
-  background: #8b9b8c;
+  background: #12aa9c;
 }
 #nexmoe-content .nexmoe-post .nexmoe-comment .v .veditor {
   background-image: url("/images/background/papa.jpg");
@@ -1421,19 +1421,19 @@ article pre .txt {
   background-color: #fff;
 }
 #nexmoe-content .nexmoe-post .nexmoe-comment .v .vlist .vcard .vhead .vnick {
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 #nexmoe-content .nexmoe-post .nexmoe-comment .v .vlist .vcard .vhead .vnick::before {
-  background: #8b9b8c;
+  background: #12aa9c;
 }
 #nexmoe-content .nexmoe-post .nexmoe-comment .v button {
   background: $theme_color_time;
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 #nexmoe-content .nexmoe-post .nexmoe-comment .v button:hover {
-  background: #8b9b8c;
+  background: #12aa9c;
   color: #fff;
-  border-color: #8b9b8c;
+  border-color: #12aa9c;
 }
 #nexmoe-content .nexmoe-post .nexmoe-comment .v .vcontrol .col-20 a {
   display: none;
@@ -1442,10 +1442,10 @@ article pre .txt {
   display: none;
 }
 #nexmoe-content .nexmoe-post .nexmoe-post-copyright a {
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 #nexmoe-content .nexmoe-primary .nexmoe-page-nav .current {
-  background: #8b9b8c;
+  background: #12aa9c;
   box-shadow: 0 2px 12px $theme_color_time;
 }
 #daodream-container .daodream-launcher {
@@ -1458,44 +1458,44 @@ article pre .txt {
 #daodream-container .daodream-sheet-header {
   background-image: linear-gradient(0deg, $theme_color_time, $theme_color_time) !important;
   box-shadow: 0 1px 0 0 $theme_color_time, 0 1px 2px 0 $theme_color_time !important;
-  color: #8b9b8c;
+  color: #12aa9c;
 }
 #daodream-container .daodream-sheet-header .daodream-sheet-header-generic-title {
-  color: #8b9b8c;
+  color: #12aa9c;
   font-weight: bold;
 }
 #daodream-container .daodream-composer-textarea textarea {
-  color: #8b9b8c !important;
+  color: #12aa9c !important;
 }
 #daodream-container .daodream-composer-textarea textarea:focus {
   outline: none;
-  border: 1px solid #8b9b8c !important;
+  border: 1px solid #12aa9c !important;
 }
 #daodream-container .daodream-composer-send-button {
-  background-image: linear-gradient(180deg, #8b9b8c, #8b9b8c) !important;
-  background: #8b9b8c !important;
+  background-image: linear-gradient(180deg, #12aa9c, #12aa9c) !important;
+  background: #12aa9c !important;
 }
 #daodream-container .daodream-conversations-item-user-avatar {
-  background-color: #8b9b8c !important;
+  background-color: #12aa9c !important;
 }
 #daodream-container .daodream-conversations-new-conversation-button {
-  background-image: linear-gradient(180deg, #8b9b8c, #8b9b8c) !important;
-  background: #8b9b8c !important;
+  background-image: linear-gradient(180deg, #12aa9c, #12aa9c) !important;
+  background: #12aa9c !important;
 }
 #daodream-container .daodream-comment-card .notification-input {
-  border: 1px solid #8b9b8c !important;
+  border: 1px solid #12aa9c !important;
 }
 #daodream-container .daodream-comment-card .notification-submit {
-  background-color: #8b9b8c !important;
+  background-color: #12aa9c !important;
 }
 #daodream-container .daodream-comment-card .daodream-comment-avatar {
   content: url("/images//background/head.jpg") !important;
 }
 #daodream-container .daodream-comment-by-user .daodream-comment-body-container {
-  background-color: #8b9b8c !important;
+  background-color: #12aa9c !important;
 }
 #daodream-container .daodream-comment-by-user .daodream-comment-caret:before {
-  background-color: #8b9b8c !important;
+  background-color: #12aa9c !important;
 }
 #daodream-container .daodream-sheet-spinner {
   border-radius: 50% !important;
@@ -1505,7 +1505,7 @@ article pre .txt {
 #daodream-container .daodream-launcher-button {
   width: 80px !important;
   height: 80px !important;
-  background-color: #8b9b8c !important;
+  background-color: #12aa9c !important;
   background-image: url("/images/background/2.png") !important;
   background-size: 100% 100% !important;
   border-radius: 50% !important;
